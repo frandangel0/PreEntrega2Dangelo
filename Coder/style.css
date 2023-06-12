@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Quicksand:wght@300;500;700&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Libre Baskerville", serif;
+}
+html {
+  font-size: 62.5%; /* Modificación del porcentaje root de la fuente para facilitar el uso de rem */
+}
+.navegacion {
+  background-color: #002336; /* Color de fondo de la barra de navegación */
+  padding: 1rem; /* Espaciado interno de la barra de navegación */
+  display: flex; /* Utilizar flexbox para el diseño */
+  justify-content: flex-end; /* Establecer los elementos de flex al final */
+  align-items: center; /* Centrar verticalmente los elementos de navegación */
+}
+
+ul {
+  font-size: 3rem;
+  list-style: none; /* Eliminar los puntos de la lista */
+  margin: 1rem; /* Eliminar el margen en la lista */
+  padding: 0; /* Eliminar el espaciado interno en la lista */
+  display: flex; /* Utilizar flexbox para el diseño de la lista */
+}
+.items li {
+  margin: 0 2rem; /* Espaciado horizontal entre los elementos de navegación */
+}
+
+a {
+  color: #fff; /* Color del texto del enlace */
+  text-decoration: none; /* Eliminar el subrayado del enlace */
+}
+
+h1 {
+  font-size: 6rem;
+  position: absolute; /* Utilizar posición absoluta */
+  top: 28rem; /* Alinear con el borde superior del contenedor */
+  left: 10rem; /* Alinear con el borde izquierdo del contenedor */
+}
+
+h2 {
+  font-size: 4rem;
+  position: absolute; /* Utilizar posición absoluta */
+  top: 36rem; /* Alinear con el borde superior del contenedor */
+  left: 10rem; /* Alinear con el borde izquierdo del contenedor */
+}
+
+#trabajemos {
+  font-size: 3rem;
+  position: absolute; /* Utilizar posición absoluta */
+  top: 36rem; /* Alinear con el borde superior del contenedor */
+  left: 10rem; /* Alinear con el borde izquierdo del contenedor */
+}
+
+button {
+  position: absolute; /* Utilizar posición absoluta */
+  top: 30rem; /* Alinear con el borde superior del contenedor */
+  left: 5rem; /* Alinear con el borde izquierdo del contenedor */
+  padding: 1rem 2rem; /* Espaciado interno del botón */
+  background-color: #1d76dc; /* Color de fondo del botón */
+  color: white; /* Color del texto del botón */
+  border: none; /* Eliminar el borde del botón */
+  border-radius: 1rem; /* Darle un borde redondeado al botón */
+  cursor: pointer; /* Cambiar el cursor al pasar sobre el botón */
+}
+
+.boton_call {
+  position: relative; /* Utilizar posición relativa */
+  height: 20rem; /* Altura del contenedor */
+}
+
+body {
+  background-image: url(/Coder/Imagenes/fondo\ pagina.png); /*Imagen de fondo para el sitio*/
+  background-size: cover; /*Permite que la imagen cubra toda la pantalla*/
+}
+.container2 {
+  position: relative;
+  display: inline-block; /* Activar el contenedor flexible */
+  width: 25rem; /* Ancho del contenedor */
+  margin-left: 28rem; /* Margen alrededor del contenedor */
+  top: 36rem;
+}
+
+.image {
+  width: 100%; /* Ancho de la imagen dentro del contenedor */
+}
+
+.subtitle {
+  font-size: 3rem;
+  font-weight: bold; /* Estilo del subtítulo */
+  margin-top: 2rem;  /* Espacio entre el subtítulo y la descripción */
+}
+
+.description {
+  font-size: 1.6rem;
+  margin-top: 5px; /* Espacio entre el subtítulo y la descripción */
+}
+
+.about {
+  position: absolute;
+  top: 38rem;
+  left: 10rem;
+  width: 70rem;
+  font-size: 2.5rem;
+  margin-top: 1rem; /* Espacio entre el subtítulo y la descripción */
+}
+
+.container_contacto {
+  position: relative;
+  display: inline-block; /* Desplazar los contenedores en linea */
+  width: 20rem; /* Ancho del contenedor */
+  margin-left: 32rem; /* Margen hacia el lado izq del contenedor */
+  top: 36rem;
+}
+
+.image1 {
+  width: 27rem; /* Ajustar la primer imagen para que sea proporcional visualmente al resto */
+}
+
+form {
+  width: 30rem;
+  margin: 0 auto;
+  position: absolute;
+  top: 40rem;
+  left: 12rem;
+}
+
+label, input {
+  display: block;
+  margin-bottom: 1rem;
+}
+
+input[type="submit"] {
+  background-color: #5193e4;
+  color: white;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 1rem;
+  cursor: pointer;
+  margin: 1rem;
+}
+
+.container { 
+  max-width: 45%; /*medida del carrousel */
+  position: absolute;
+  top: 40rem;
+  right: 60rem;
+}
